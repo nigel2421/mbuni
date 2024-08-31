@@ -1,0 +1,27 @@
+.booklet-hero__sheet.fill-polar {
+	background: rgba(255,255,255,.9);
+}
+
+#map-outer {
+	height: 300px !important;
+}
+
+@media screen and (min-width: 1024px) {
+	.booklet-hero__sheet {
+		bottom: 16%;
+		top: 16%;
+	}
+}
+
+@media screen and (min-width: 1279px) {
+	.booklet-hero__sheet {
+		bottom: 22%;
+		top: 22%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.grid-medium-half .column {
+		padding: 0% !important;
+	}
+}

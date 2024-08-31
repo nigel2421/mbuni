@@ -1,0 +1,68 @@
+h1.type-display {
+	color: #36AD47;
+	font-family: "Brandon Grotesque", Lato, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.nyaquarium h1.type-display {
+	font-family: 'Foundation Sans Bold', Lato, Helvetica, Arial, sans-serif;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.nyaquarium .page-hero__html>div {
+	max-width: 920px;
+}
+
+.nyaquarium .page-hero__html h3 {
+	font-family: 'Foundation Sans Bold', Lato, Helvetica, Arial, sans-serif;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.nyaquarium .wysiwyg p strong {
+	color: #00b2cd;
+}
+
+.page-hero__html {
+	justify-content: flex-start;
+	padding-top: 75px;
+	text-shadow: none;
+}
+
+.page-hero__html>div {
+	max-width: 1000px;
+}
+
+.page-hero__html h3 {
+	color: #2d211e;
+	font-family: "Brandon Grotesque", Lato, Helvetica, Arial, sans-serif;
+	font-size: 2.75rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.page-hero__html h3.aq-boundaries {	
+	color: #25343e;
+}
+
+.page-hero__media {
+	background-position: center bottom;
+}
+
+.wysiwyg p strong {
+	color: #36AD47;
+}
+
+@media all and (max-width: 767px) {
+	.page-hero__html h3 {
+		font-size: 1.75rem;
+	}
+	
+	.page-hero__html h3.aq-boundaries {
+		color: #25343e;
+	}
+}

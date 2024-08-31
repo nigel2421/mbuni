@@ -1,0 +1,266 @@
+.nyaquarium .wysiwyg h1, .nyaquarium .wysiwyg h2:not(.type-display-capped), .nyaquarium .column .wysiwyg h3 {
+    color: #25343e !important;
+}
+
+.nyaquarium .schedule td:nth-of-type(1) strong {
+    color: #d83237;
+}
+
+.nyaquarium .column .wysiwyg p.label {
+    color: #00b2cd;
+}
+
+.block__image.block__image--with-text figure {
+    border-radius: 100%;
+}
+
+.block__description .color-primary {
+    text-align: center;
+    color: white;
+}
+
+.blocks.container-full.margin-expanded-bottom {
+  background-color: transparent;
+  padding: 0;
+}
+
+.blocks.container-full.margin-expanded-bottom .block__description .color-copy {
+  color: #272b2d;
+  line-height: 1.65rem;
+}
+
+.blocks.container-full.margin-expanded-bottom .block__description .type-caption {
+  color: #20822c;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin: 0 0 15px;
+}
+
+.container.margin-0-bottom.-column,
+.container.margin-0-bottom.-column .image-fluid {
+  max-width: 100%;
+}
+
+.wysiwyg h1, .header__title {
+    color: #20812D !important;
+    font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+    font-size: 3.75rem;
+    font-weight: bold;
+    letter-spacing: 2px !important;
+    text-transform: uppercase;
+}
+
+.internship__stats {
+    background: #1b71b2;
+}
+
+.internship__stats .stat {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.internship__stats .stat__inner__heading__number {
+    color: #fff;
+}
+
+.internship__stats .stat__inner__heading__label {
+    color: #fff;
+    font-family: "Brandon Grotesque", Lato, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.wysiwyg h2:not(.type-display-capped) {
+    color: #20812D;
+    font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin: 50px 0 0;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing:0.1em;
+}
+
+.column .wysiwyg p.label {
+    font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color:#85754e;
+}
+
+.btn-protocol {
+    background-color: #1B71B2;
+    color: white;
+}
+
+.btn-protocol:hover {
+    background-color: #0175cc;
+}
+
+/* .column .wysiwyg p {
+    color:white;
+} */
+
+.column .wysiwyg h3 {
+    font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: #20812D;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.05rem; 
+    text-transform: uppercase;
+}
+
+/* .grid.grid-medium-half:nth-of-type(5) .column.cell:nth-of-type(2) {
+    padding-top: 24px;
+    background-color:#1B71B2;
+    color: white;
+}
+
+.grid.grid-medium-half:nth-of-type(6) .column.cell:nth-of-type(2) {
+    padding-top: 24px;
+    background-color:#00A99A;
+    color: white;
+}
+
+.grid.grid-medium-half:nth-of-type(7) .column.cell:nth-of-type(2) {
+    padding-top: 24px;
+    background-color:#36AD47;
+    color: white;
+} */
+
+/* .schedule tr:nth-of-type(even) {
+    background-color: rgba(0, 169, 154,0.9);
+    color: white;
+}
+
+.schedule tr:nth-of-type(even) td:nth-of-type(1), .schedule tr:nth-of-type(even) td:nth-of-type(1) .note {
+    color:white !important;
+} */
+
+.schedule td:nth-of-type(1) strong {
+    font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    color: #E58A1F;
+}
+
+.schedule td:nth-of-type(1) .note {
+    font-weight:normal;
+    text-transform:initial;
+    font-family:'Lato';
+    letter-spacing:0.05em;
+    font-style:italic;
+    color: gray;
+}
+
+.wysiwyg .covid-link {
+    font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #1B71B2;
+    text-decoration: underline;
+}
+
+.wysiwyg svg {
+    fill: #20812D;
+}
+
+.wysiwyg .faq-text {
+    color: #20812D;
+    font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+}
+
+@media all and (max-width: 1278px) {
+   .posters.grid-half>.cell {
+      padding: 32px;
+    }
+}
+
+@media all and (max-width: 767px) {
+   .blocks.container-full.margin-expanded-bottom .grid {
+      flex-direction: column;
+   }
+   
+   .blocks.container-full.margin-expanded-bottom .grid .block__image--with-text {
+      width: 100%;
+   }
+   
+   .blocks.container-full.margin-expanded-bottom .block__description .type-caption {
+      margin: 0 0 10px;
+   }
+   
+    .cards .card__desc .type-caption {
+        font-size: 1rem !important;
+    }
+    
+    .internship__stats .stat {
+        display: block;
+        width: 100%;
+    }
+   
+   .posters {
+       align-items: center;
+   }
+   
+   .type-heading-xl {
+       font-size: 2rem;
+       -webkit-font-smoothing: antialiased;
+       letter-spacing: 0.05em;
+       line-height: 1.25;
+   }
+   
+    .wysiwyg h2:not(.type-display-capped) {
+        margin-top: 25px;
+    }
+
+    .schedule tr:first-of-type {
+        border-top: 1px solid #e8e7e5 !important;
+    }
+
+    .schedule tr:last-of-type {
+        border-bottom: 1px solid #e8e7e5;
+    }
+
+    .grid.grid-medium-half.reverse {
+        display: flex;
+        flex-flow:column;
+    }
+    
+    .grid.grid-medium-half.reverse .column.cell:nth-of-type(2) {
+        order: -1;
+    }
+    
+    .posters.grid-half>.cell {
+      max-width: 250px;
+      width: 100%;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    .-section img {
+        float: none !important;
+    }
+
+    .-section p {
+        text-align: center;
+        margin-left: 0px !important;
+    }
+}

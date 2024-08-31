@@ -1,0 +1,84 @@
+﻿.block a p {
+	color: #212426;
+}
+
+.block a p em {
+	color: #8a8885;
+	display: block;
+	font-size: 0.8625rem;
+	font-style: normal;
+	line-height: 1.5rem;
+}
+
+.block a p strong {
+	color: #e58a1f;
+	display: block;
+    font-family: "Brandon Grotesque", Lato, Helvetica, Arial, sans-serif;
+	font-size: 0.8625rem;
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	line-height: 1rem;
+	margin: 20px 0 0;
+	text-transform: uppercase;
+}
+
+.block a p.type-caption {
+	color: #008484;
+	font-size: 1rem;
+	margin: 0 0 10px;
+}
+
+.block a p.type-caption:hover {
+	color: #009d9e;
+}
+
+.faqs {
+	padding: 0 35px
+	}
+
+.faqs .answer {
+	max-height: 0;
+	opacity: 0;
+	overflow: hidden;
+	transition: all 0.2s ease-out;
+}
+
+.faqs .answer--open {
+	max-height: 1000px;
+	padding: 0 0 24px;
+	opacity: 1;
+}
+
+.faqs hr {
+	height: 1px;
+}
+
+.faqs .question {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.nyaquarium .block a p.type-caption {
+	color: #25343e;
+}
+
+.nyaquarium  .block a p.type-caption:hover {
+	color: #334a5a;
+}
+
+.nyaquarium .block a p strong {
+	color: #00b2cd;
+	font-family: Foundation Sans, Lato, Helvetica, Arial, sans-serif;
+} 
+
+.nyaquarium .wysiwyg h2 {
+	color: #1d364d !important;
+}
+
+.wysiwyg {
+	overflow-x: hidden;
+}
+
+.wysiwyg h3 {
+	font-size: 1.5rem;
+}

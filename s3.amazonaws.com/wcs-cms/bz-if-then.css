@@ -1,0 +1,297 @@
+.cards .card .fill-paper {
+  background-image: none;
+}
+
+.cards .card__inner {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.cards .card__desc {
+  background-color: #1b71b2;
+  padding: 10px 0px 20px 10px;
+  position: relative;
+  top: -20px;
+  width: 90%;
+  text-align: left;
+}
+
+.cards .card__desc .type-caption {
+  line-height: 1;
+  letter-spacing: 0.05rem;
+  font-size: 1.25rem;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+}
+
+.cards .card__desc .color-primary {
+  color: white;
+  margin: 0px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.cards .card__desc p {
+  color: white !important;
+}
+
+.blocks {
+  background-color: #36AD47;
+  padding: 5%;
+}
+
+.blocks .block {
+  max-width: 25% !important;
+  width: 25% !important;
+  margin: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .blocks .block {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+.blocks .block__image img {
+  border-radius: 100%;
+}
+
+.blocks .block__description {
+  margin-top: 5%;
+}
+
+.blocks .block__description .type-caption {
+  color: white;
+  letter-spacing: 0.05rem;
+  font-size: 1.25rem;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.blocks .block__description .color-copy {
+  color: white;
+  font-size: 1rem;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: normal;
+}
+
+.if-then {
+  background-color: #1b71b2;
+  padding: 1% 0% 5%;
+}
+
+.if-then__hero {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.if-then__hero__header {
+  color: white;
+  letter-spacing: 0.05rem;
+  font-size: 1.65rem;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0px 30px;
+}
+
+.page-hero__html {
+  -ms-flex-align: normal;
+      align-items: normal;
+  -webkit-box-align: initial;
+  -webkit-align-items: initial;
+  position: relative;
+  top: -50px;
+  padding: 0px;
+}
+
+@media all and (max-width: 767px) {
+  .page-hero__html {
+    padding: 0px !important;
+  }
+}
+
+.page-hero__html div {
+  background-color: #E58A1F;
+  text-align: left;
+  width: 90%;
+  max-width: 100%;
+}
+
+@media all and (max-width: 767px) {
+  .page-hero__html div {
+    width: 100%;
+  }
+}
+
+.page-hero__html div h1 {
+  color: white;
+  letter-spacing: 0.05rem;
+  font-size: 2rem;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 25px 10px 10px 10px;
+  padding: 0px 200px;
+}
+
+@media all and (max-width: 767px) {
+  .page-hero__html div h1 {
+    padding: 10px 10px;
+  }
+}
+
+.page-hero__html div p {
+  color: white;
+  font-size: 1rem;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px 10px 25px 10px !important;
+  padding: 0px 200px;
+}
+
+@media all and (max-width: 767px) {
+  .page-hero__html div p {
+    padding: 10px 10px;
+  }
+}
+
+.more-header strong {
+  color: #1b71b2;
+  font-size: 1rem;
+}
+
+.thezoo-article {
+  margin: 0 auto;
+  padding: 0 0 35px;
+}
+
+@media all and (max-width: 700px) {
+  .thezoo-article {
+    padding: 30px 0 5px;
+    width: calc(100% - 60px);
+    margin-top: -20%;
+  }
+}
+
+.thezoo-article__inset {
+  float: right;
+  margin: 30px 0 30px 30px;
+  max-width: 425px;
+  width: 40%;
+}
+
+@media all and (max-width: 400px) {
+  .thezoo-article__inset {
+    margin: 5px 0 30px;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.thezoo-article__inset__image {
+  display: block;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.thezoo-article__inset__title {
+  background: #1b71b2;
+  margin: -60px 0 0;
+  padding: 20px;
+  position: relative;
+  width: 95%;
+}
+
+@media all and (max-width: 700px) {
+  .thezoo-article__inset__title {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.thezoo-article__inset__title h4 a {
+  color: #fff;
+  margin: 0 0 10px;
+}
+
+.thezoo-article p {
+  margin: 0 0 25px;
+}
+
+.thezoo-article__title {
+  background-image: url("../../cdn.wcs.org/2019/02/06/2depv9bl4q_the_zoo_hero_gradient.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: contain;
+  bottom: 0;
+  padding: 20px 0 80px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+@media all and (max-width: 700px) {
+  .thezoo-article__title {
+    padding: 15px;
+  }
+}
+
+.thezoo-article__title h2 {
+  font-size: 3.4375rem;
+  line-height: 3.4375rem;
+  margin: 15px 0 0;
+}
+
+@media all and (max-width: 700px) {
+  .thezoo-article__title h2 {
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+    margin: 10px 0 0;
+  }
+}
+
+.thezoo-article__title h4 {
+  font-weight: normal;
+}
+
+.thezoo-cta {
+  color: #FAFF00;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: .875rem;
+  letter-spacing: 2px;
+  line-height: .875rem;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.thezoo-cta::before {
+  background-image: url("../../cdn.wcs.org/2019/01/29/8u8a49xii7_icon_plus.png");
+  background-size: contain;
+  content: '';
+  display: inline-block;
+  height: 20px;
+  margin: 0 10px 0 0;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 20px;
+  vertical-align: text-bottom;
+}
+
+.thezoo-cta::before:hover {
+  opacity: .85;
+}
+
+.thezoo-cta:hover {
+  color: #FAFF00;
+  opacity: .85;
+}
+/*# sourceMappingURL=bz-if-then.css.map */

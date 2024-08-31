@@ -1,0 +1,26 @@
+.bold {
+	font-weight: bold;
+}
+
+.lettered {
+	list-style: upper-alpha;
+}
+
+.lettered li {
+	padding: 0 0 0 10px;
+}
+
+.lettered li::before {
+	display: none;
+}
+
+.lettered li li::before {
+	display: inline-block;
+}
+
+.tile {
+	border: 1px solid;
+	margin: 8px;
+	min-width: 112px;
+	padding: 16px 16px 8px;
+}

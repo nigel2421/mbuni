@@ -1,0 +1,72 @@
+.about__stats {
+	background-color: #36AD47;
+}
+
+.about__stats .stat {
+	display: inline-block;
+	width: 32%;
+	vertical-align: top;
+}
+
+.about__stats .stat p {
+	color: #fff;
+	margin: 16px auto 0;
+	max-width: 300px;
+}
+
+.about__stats .stat__inner__heading__number {
+	color: #fff;
+}
+
+.about__stats .stat__inner__heading__label {
+	color: #EBFF00;
+	font-family: "Brandon Grotesque", Lato, Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.column.cell {
+	padding: 0;
+}
+
+h1.type-display {
+	color: #36AD47;
+	font-family: "Brandon Grotesque", Lato, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.nyaquarium .about__stats {
+	background-color: #30B1C7;
+}
+
+.nyaquarium .about__stats .stat__inner__heading__label {
+	color: #E2E733;
+    font-family: 'Foundation Sans Bold', Lato, Helvetica, Arial, sans-serif;
+}
+
+.nyaquarium h1.type-display {
+	font-family: 'Foundation Sans Bold', Lato, Helvetica, Arial, sans-serif;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.page>div:last-child {
+	margin-bottom: 0;
+}
+
+.wysiwyg h2:not(.type-display) {
+	color: #212426;
+	font-size: 1.35rem;
+}
+
+@media all and (max-width: 768px) {
+	.about__stats .stat {
+		display: block;
+		width: 100%;	
+	}
+}

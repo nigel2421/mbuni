@@ -1,0 +1,51 @@
+.block__description.cell {
+    background-color: #20812D;
+    padding: 20px 15px;
+    position: relative;
+    top: -40px;
+    transition: all 0.2s ease-out;
+    width: 95%;
+}
+
+.block:hover .block__description {
+    background: #219731;
+}
+
+.nyaquarium .block__description.cell {
+    background-color: #1d364d;
+}
+
+.nyaquarium .block:hover .block__description {
+    background: #396a96;
+}
+
+.block__description .type-caption {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.25rem;
+}
+
+.grid-medium-third>.cell, .grid>.cell-medium-third {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 25%;
+    flex: 0 1 25%;
+    max-width: 25%;
+    width: 25%;
+}
+
+.tile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 150px;
+}
+.tile-label {
+    max-width: 150px;
+}
+
+.sub-navigation {
+    display: none;
+}

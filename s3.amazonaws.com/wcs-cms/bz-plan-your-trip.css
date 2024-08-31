@@ -1,0 +1,2049 @@
+.animals__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 30px;
+}
+@media all and (max-width: 767px) {
+  .animals__cards {
+    gap: 20px;
+    padding: 0 20px;
+  }
+}
+.animals__cards__card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+  flex: 0 0 calc(50% - 15px);
+  overflow: hidden;
+}
+@media all and (max-width: 767px) {
+  .animals__cards__card {
+    flex: 0 0 100%;
+  }
+}
+.animals__cards__card__content {
+  padding: 35px;
+}
+.animals__cards__card__content h2 {
+  color: #20812D;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin: 0 0 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@media all and (max-width: 425px) {
+  .animals__cards__card__content h2 {
+    font-size: 1.5rem;
+  }
+}
+.animals__cards__card__content__location {
+  color: #00A99A;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.2s all ease-out;
+}
+.animals__cards__card__content__location:hover {
+  opacity: 0.85;
+}
+.animals__cards__card__content__location svg {
+  display: inline-block;
+  height: 15px;
+  fill: #00A99A;
+  margin: 0 3px 0 0;
+  position: relative;
+  top: 2px;
+  width: 15px;
+}
+.animals__cards__card__content ul {
+  border-bottom: 1px dotted #79D76A;
+  border-top: 1px dotted #79D76A;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+.animals__cards__card__content ul li {
+  font-size: 1rem;
+  line-height: 1.35rem;
+  margin: 15px 0;
+}
+@media all and (max-width: 425px) {
+  .animals__cards__card__content ul li {
+    margin: 10px 0 20px;
+  }
+}
+.animals__cards__card__content ul li strong {
+  color: #024E4E;
+  display: inline-block;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0 5px 0 0;
+  text-transform: uppercase;
+}
+@media all and (max-width: 425px) {
+  .animals__cards__card__content ul li strong {
+    display: block;
+    margin: 0;
+  }
+}
+.animals__cards__card--fact {
+  background-color: #024E4E;
+  color: #fff;
+  flex: 0 0 100%;
+  padding: 35px;
+  text-align: center;
+}
+.animals__cards__card--fact h3 {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  margin: 0 0 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.animals__cards__card--fact p {
+  margin: 0 auto;
+  max-width: 720px;
+}
+.animals__cards__card--fact p a {
+  color: #fff;
+  text-decoration: underline;
+}
+.animals__cards__card__flag {
+  background-color: #008484;
+  color: #fff;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1rem;
+  padding: 10px 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.animals__cards__card__flag--legend {
+  background-color: #20812D;
+}
+.animals__cards__card__image {
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.animals__cards__card__image::after {
+  content: "";
+  display: block;
+  left: 0;
+  padding-bottom: 57%;
+  top: 0;
+}
+.animals .tiles .tile {
+  transition-property: color, opacity, border, box-shadow, transform;
+}
+
+.nyaquarium .amenitites, .nyaquarium .more-to-zoo {
+  background-color: #00B2CD;
+}
+.nyaquarium .cta:before {
+  background-image: url("../../cdn.wcs.org/2020/07/30/44iwxt1bks_ICON_plus.png");
+}
+.nyaquarium .cta-aq::before {
+  background-image: url("../../cdn.wcs.org/2020/07/23/hjuozq8d6_ICON_plusaq.png") !important;
+}
+.nyaquarium .ellipsis-table .ellipsis .price {
+  color: #00B2CD;
+}
+.nyaquarium .events__block .springboard-widget .btn-large--submit.fill-callout {
+  background-color: #25343e;
+}
+.nyaquarium .events__block__inner__text p:first-of-type {
+  color: #1B71B2;
+}
+.nyaquarium .exhibit__animals .color-copy p:first-of-type {
+  color: #25343e;
+  font-family: "Foundation Sans Bold", "Lato", helvetica, arial, sans-serif;
+  font-size: 1rem;
+}
+.nyaquarium .exhibit__feature__credit {
+  color: #25343e;
+}
+.nyaquarium .exhibit__feature__site {
+  color: #25343e;
+  font-family: "Foundation Sans Bold", "Lato", helvetica, arial, sans-serif;
+}
+.nyaquarium .exhibit__feature .type-headline {
+  color: #25343e;
+  font-family: "Foundation Sans Bold", "Lato", helvetica, arial, sans-serif;
+}
+.nyaquarium .exhibit__header {
+  color: #25343e !important;
+  font-family: "Foundation Sans Bold", "Lato", helvetica, arial, sans-serif !important;
+  text-transform: uppercase;
+}
+.nyaquarium .exhibit__subhead {
+  color: #25343e !important;
+}
+.nyaquarium .exhibit__live-cam {
+  background-color: #00b2cd !important;
+}
+.nyaquarium .exhibit__live-cam img {
+  display: none;
+}
+.nyaquarium .exhibit__live-cam--down iframe {
+  display: none;
+}
+.nyaquarium .exhibit__live-cam--down img:first-of-type {
+  display: block;
+}
+.nyaquarium .exhibit__live-cam--offline iframe {
+  display: none;
+}
+.nyaquarium .exhibit__live-cam--offline img:last-of-type {
+  display: block;
+}
+.nyaquarium .getting-around {
+  background-color: #25343e !important;
+}
+.nyaquarium .getting-around__container__image {
+  background-image: url("../../cdn.wcs.org/2020/07/09/1uccrw6pkq_nyaquarium.png");
+}
+.nyaquarium .getting-around .link.type-small.cta {
+  color: #ebff00;
+}
+.nyaquarium .getting-around .link.type-small.cta:hover {
+  color: #ebff00;
+  opacity: 0.85;
+}
+.nyaquarium .link.type-small.cta {
+  color: #00B2CD;
+}
+.nyaquarium .link.type-small.cta:hover {
+  color: #00c8e7;
+}
+.nyaquarium .header__title, .nyaquarium .things-to-do__review__mark,
+.nyaquarium .things-to-do__review__quote,
+.nyaquarium .wild-encounter__container__text h3,
+.nyaquarium .events__block__inner__text p:first-of-type,
+.nyaquarium .events__block h2, .nyaquarium .must-see__block h2,
+.nyaquarium .getting-around__header, .nyaquarium .amenities h2,
+.nyaquarium .content-set__block__title h3,
+.nyaquarium .more-to-zoo h2 {
+  font-family: "Foundation Sans Bold", "Lato", helvetica, arial, sans-serif !important;
+}
+.nyaquarium .wild-encounters-tickets {
+  background-image: url("../../cdn.wcs.org/2024/02/23/14/01/29/ed6ae374-acb6-4a29-b5fb-dab4a6866c0e/sea-lion-encounter.jpg");
+}
+.nyaquarium .wysiwyg .cta::before {
+  background-image: url("../../cdn.wcs.org/2020/07/30/44iwxt1bks_ICON_plus.png");
+}
+.nyaquarium .wysiwyg h1.intro-header {
+  font-family: "Foundation Sans Bold", "Lato", helvetica, arial, sans-serif;
+}
+.nyaquarium .wysiwyg h2:not(.type-display-capped) {
+  color: #25343e;
+}
+.nyaquarium #btn-membership {
+  background-color: #1B71B2;
+  color: white;
+}
+.nyaquarium #btn-membership:hover {
+  background-color: #0175cc;
+}
+.nyaquarium .grid-medium-fourth .block .figure__caption, .nyaquarium .grid-medium-third .block .figure__caption {
+  color: #00A99A;
+}
+
+.birthday {
+  background-color: #1B71B2;
+}
+.birthday__container {
+  display: table;
+  width: 100%;
+  min-height: 500px;
+}
+.birthday__container__image {
+  background-image: url(../../cdn.wcs.org/2024/04/30/12/34/25/9e62564e-7ad9-4e72-a790-d7eb2895fa0e/Julie-Larsen-Maher_3569_Run-for-the-Wild_BZ_04-30-22-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: table-cell;
+  width: 50%;
+  vertical-align: top;
+}
+@media all and (max-width: 767px) {
+  .birthday__container__image {
+    display: block;
+    min-height: 400px;
+    width: 100%;
+  }
+}
+@media all and (max-width: 425px) {
+  .birthday__container__image {
+    min-height: 250px;
+  }
+}
+.birthday__container__image__inner {
+  min-height: 500px;
+}
+.birthday__container__text {
+  background: linear-gradient(74deg, #0B3452 21.35%, #04131F 156.55%);
+  display: table-cell;
+  padding: 50px;
+  vertical-align: middle;
+  width: 50%;
+}
+@media all and (max-width: 767px) {
+  .birthday__container__text {
+    display: block;
+    width: 100%;
+  }
+}
+@media all and (max-width: 425px) {
+  .birthday__container__text {
+    padding: 5px;
+  }
+}
+.birthday__container__text .btn {
+  background-color: #A0CA3E;
+  color: #024E4E;
+}
+.birthday__container__text .-column {
+  padding: 100px;
+}
+@media all and (max-width: 1150px) {
+  .birthday__container__text .-column {
+    padding: 65px;
+  }
+}
+@media all and (max-width: 767px) {
+  .birthday__container__text .-column {
+    padding: 45px;
+  }
+}
+.birthday__container__text p {
+  color: white;
+  margin-bottom: 16px !important;
+}
+.birthday__container__text h3 {
+  font-family: "League Gothic", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.birthday__container__text h3 span {
+  background-image: url("https://cdn.wcs.org/2023/12/26/12/15/17/ea99f983-668f-467b-825a-5f8aa18bc7a3/logo-125-blue (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 38px;
+  overflow: hidden;
+  text-indent: -1000px;
+  width: 78px;
+  vertical-align: text-top;
+}
+
+@media all and (max-width: 767px) {
+  .conservation .page-hero {
+    margin-bottom: -50px;
+  }
+}
+.conservation .page-hero__html {
+  justify-content: flex-start;
+  padding-top: 75px;
+  text-shadow: none;
+}
+.conservation .page-hero__html > div {
+  max-width: 1000px;
+}
+.conservation .page-hero__html h3 {
+  color: #2d211e;
+  font-family: "Brandon Grotesque", Lato, Helvetica, Arial, sans-serif;
+  font-size: 2.75rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@media all and (max-width: 767px) {
+  .conservation .page-hero__html h3 {
+    color: #20812D;
+    font-size: 1.75rem;
+  }
+}
+.conservation .page-hero__media {
+  background-position: center bottom;
+}
+.conservation__video {
+  background-color: #181a1b;
+}
+.conservation__video .container {
+  max-width: 1350px;
+}
+
+.content-set {
+  padding: 80px 40px 40px;
+  text-align: center;
+}
+@media all and (max-width: 767px) {
+  .content-set {
+    text-align: left;
+    padding: 40px 15px 20px;
+  }
+}
+.content-set h2 {
+  color: white;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0 0 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media all and (max-width: 425px) {
+  .content-set h2 {
+    text-align: left;
+    font-size: 1.7rem;
+  }
+}
+.content-set__block {
+  display: inline-block;
+  margin: 0 40px 40px 0;
+  width: calc(33.3333% - 45px);
+  vertical-align: top;
+}
+@media all and (max-width: 767px) {
+  .content-set__block {
+    position: relative;
+    margin-right: 0px;
+    margin-bottom: 8%;
+    width: 100%;
+  }
+}
+.content-set__block:last-of-type {
+  margin: 0 0 40px;
+}
+.content-set__block__image {
+  display: block;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+@media all and (max-width: 767px) {
+  .content-set__block__image {
+    display: inline-block;
+    width: 40%;
+  }
+}
+.content-set__block__title {
+  padding: 20px;
+  position: relative;
+  top: -30px;
+  width: 95%;
+  text-align: left;
+}
+@media all and (max-width: 767px) {
+  .content-set__block__title {
+    background-color: transparent !important;
+    display: inline-block;
+    margin: 0;
+    margin-left: 40%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 40%;
+  }
+}
+.content-set__block__title h3 a {
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+.content-set__block__title h3 a:hover {
+  opacity: 0.85;
+}
+.content-set__block__title h3 {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 1.65rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  max-width: 300px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 425px) {
+  .content-set__block__title h3 {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+  }
+}
+@media all and (max-width: 767px) {
+  .content-set__block .figure {
+    background: none;
+  }
+}
+
+.more-to-zoo {
+  background-color: #20812D;
+}
+.more-to-zoo .content-set__block__title {
+  background-color: #1B71B2;
+  color: #fff;
+}
+.more-to-zoo__content {
+  margin: 0;
+  position: absolute;
+  padding: 0 60px 0 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@media all and (max-width: 1150px) {
+  .more-to-zoo__content {
+    position: static;
+    margin-bottom: 20px;
+    padding: 20px;
+    transform: none;
+  }
+}
+.more-to-zoo__content h2 {
+  color: #fff;
+  font-size: 2.0625rem;
+  line-height: 2.0625rem;
+  margin: 10px 0;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.more-to-zoo__content p {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+@media all and (max-width: 1150px) {
+  .more-to-zoo:nth-of-type(1) .more-to-zoo__content {
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .more-to-zoo:nth-of-type(1) .block {
+    padding: 10px 20px;
+  }
+  .more-to-zoo:nth-of-type(1) .content-set__block__title {
+    width: 100%;
+  }
+  .more-to-zoo:nth-of-type(1) .content-set__block__title h3 {
+    max-width: 400px;
+    font-size: 1.25rem;
+  }
+}
+@media all and (max-width: 767px) {
+  .more-to-zoo:nth-of-type(1) .content-set__block__title {
+    margin-left: 40%;
+    width: auto;
+  }
+}
+@media all and (max-width: 425px) {
+  .more-to-zoo:nth-of-type(1) .more-to-zoo__content {
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .more-to-zoo:nth-of-type(1) .block {
+    margin-bottom: 20px;
+    padding: 0px 10px;
+  }
+  .more-to-zoo:nth-of-type(1) .content-set__block__title {
+    margin-left: 40%;
+    width: 40%;
+  }
+  .more-to-zoo:nth-of-type(1) .content-set__block__title h3 {
+    max-width: 200px;
+  }
+}
+
+.get-more-zoo {
+  padding: 100px 0;
+}
+@media all and (max-width: 767px) {
+  .get-more-zoo {
+    padding: 30px 0;
+  }
+}
+
+.amenities {
+  background-color: #00A99A;
+}
+.amenities .content-set__block__title {
+  background-color: #E58A1F;
+}
+
+.centralparkzoo .getting-around__container__image {
+  background-image: url("../../cdn.wcs.org/2021/07/09/7sp6lgwd4t_cpz_map.png");
+}
+.centralparkzoo .facility-schedule.pad-8-vertical {
+  padding-bottom: 0px !important;
+}
+
+.daily-schedule svg {
+  fill: #85754E;
+}
+.daily-schedule__list {
+  margin: 40px 0;
+}
+.daily-schedule__list__item {
+  display: table;
+  margin: auto;
+  width: 75%;
+  font-size: 1.325rem;
+}
+@media all and (max-width: 425px) {
+  .daily-schedule__list__item {
+    width: 100%;
+  }
+}
+.daily-schedule__list__hours {
+  color: #008484;
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  font-size: 1.325rem;
+}
+@media all and (max-width: 1150px) {
+  .daily-schedule__list__hours {
+    width: 40%;
+  }
+}
+@media all and (max-width: 425px) {
+  .daily-schedule__list__hours {
+    width: 30%;
+  }
+}
+.daily-schedule__list__hours__period {
+  font-size: 0.85rem;
+}
+.daily-schedule__list__hours p {
+  margin-left: 70px;
+}
+@media all and (max-width: 1150px) {
+  .daily-schedule__list__hours p {
+    margin-left: 20px;
+  }
+}
+@media all and (max-width: 425px) {
+  .daily-schedule__list__hours p {
+    margin-left: 0px;
+  }
+}
+.daily-schedule__list__event {
+  color: #818181;
+  display: table-cell;
+  text-align: left;
+  width: 60%;
+}
+@media all and (max-width: 425px) {
+  .daily-schedule__list__event {
+    width: 40%;
+  }
+}
+.daily-schedule__list__event a {
+  color: #00A99A;
+}
+.daily-schedule__list hr {
+  width: 70%;
+}
+@media all and (max-width: 425px) {
+  .daily-schedule__list hr {
+    width: 85%;
+  }
+}
+@media all and (max-width: 1150px) {
+  .daily-schedule .pad-2-horizontal, .daily-schedule .pad-2 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+.exhibit__125 {
+  position: relative;
+}
+.exhibit__125__callout {
+  display: none;
+  text-align: right;
+  margin-top: -130px;
+  position: relative;
+}
+@media all and (max-width: 767px) {
+  .exhibit__125__callout {
+    display: block;
+  }
+}
+.exhibit__125__callout img {
+  width: 40%;
+}
+@media all and (max-width: 500px) {
+  .exhibit__125__callout img {
+    width: 80%;
+  }
+}
+.exhibit__125__container {
+  background: url(../../bronxzoo.com/assets/textures/paper-dd53f3534e2e5638f66dbdafd48c85054948b5d2a8ff8076c703d46992a733a6.png), linear-gradient(1deg, #FFF 0.87%, #F9EA40 271.54%);
+  position: relative;
+  border-radius: 0.3125rem;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.exhibit__125__container__squiggle {
+  position: absolute;
+  right: 0;
+}
+.exhibit__125__container__squiggle img {
+  width: 36rem;
+  border-top-right-radius: 0.3125rem;
+}
+@media all and (max-width: 767px) {
+  .exhibit__125__container__squiggle {
+    right: -90px;
+  }
+}
+.exhibit__125__container__columns__text {
+  flex: 0 1 70% !important;
+  width: 70% !important;
+  max-width: 70% !important;
+}
+@media all and (max-width: 900px) {
+  .exhibit__125__container__columns__text {
+    flex: 0 1 60% !important;
+    width: 60% !important;
+    max-width: 60% !important;
+  }
+}
+@media all and (max-width: 767px) {
+  .exhibit__125__container__columns__text {
+    flex: 0 1 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    position: relative;
+  }
+}
+.exhibit__125__container__columns__img {
+  flex: 0 1 29% !important;
+  width: 29% !important;
+  max-width: 29% !important;
+}
+@media all and (max-width: 900px) {
+  .exhibit__125__container__columns__img {
+    flex: 0 1 39% !important;
+    width: 39% !important;
+    max-width: 39% !important;
+  }
+}
+@media all and (max-width: 767px) {
+  .exhibit__125__container__columns__img {
+    display: none;
+  }
+}
+.exhibit__125__container__columns .wysiwyg {
+  padding: 65px 50px 50px;
+  position: relative;
+}
+@media all and (max-width: 767px) {
+  .exhibit__125__container__columns .wysiwyg {
+    padding: 45px 20px 140px;
+  }
+}
+.exhibit__125__container__columns h3 {
+  color: #0B3452;
+  font-family: "league-gothic";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 2.8125rem */
+  letter-spacing: -0.01875rem;
+  text-transform: uppercase;
+}
+.exhibit__125__container__columns p {
+  color: #0B3350;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.01rem;
+}
+.exhibit__125__container__columns p a {
+  color: #0B3350;
+  text-decoration: underline;
+}
+.exhibit__125__container__columns__button {
+  position: relative;
+  text-align: right;
+  padding: 30px 30px 10px;
+}
+.exhibit__125__container__columns__button img {
+  width: 22rem;
+}
+.exhibit__header {
+  color: #015B5B !important;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif !important;
+  font-size: 30px !important;
+  font-weight: bold;
+  letter-spacing: 0.05rem !important;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 70px !important;
+}
+@media all and (max-width: 767px) {
+  .exhibit__header {
+    margin-top: 20px !important;
+  }
+}
+.exhibit__text {
+  margin-bottom: 70px !important;
+}
+@media all and (max-width: 767px) {
+  .exhibit__text {
+    margin-bottom: 20px !important;
+  }
+}
+.exhibit__animals {
+  padding: 70px 100px;
+}
+.exhibit__animals .block__image {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.exhibit__animals .grid-medium-fourth .block .figure__caption {
+  color: #85754E;
+}
+.exhibit__animals .grid-medium-fourth .block__image {
+  border-radius: 0px !important;
+}
+@media all and (max-width: 1150px) {
+  .exhibit__animals .grid-medium-fourth .block {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 50%;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+    max-width: 50%;
+    width: 50%;
+    margin-bottom: 10px !important;
+  }
+  .exhibit__animals .grid-medium-fourth .block .image-fluid {
+    height: auto !important;
+  }
+  .exhibit__animals .grid-medium-fourth .block .figure__caption {
+    padding: 10px;
+    line-height: 1.25;
+    letter-spacing: 0.1em;
+  }
+}
+@media all and (max-width: 767px) {
+  .exhibit__animals {
+    padding: 30px;
+  }
+  .exhibit__animals .pad-5-horizontal, .exhibit__animals .pad-2-horizontal {
+    padding: 0px;
+  }
+  .exhibit__animals .grid-medium-half .block .grid {
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+  .exhibit__animals .grid-medium-half .block__image {
+    margin: 10px auto;
+    width: 250px;
+  }
+  .exhibit__animals .grid-medium-half .block__description {
+    padding-left: 0px;
+    width: 70%;
+    margin: auto;
+  }
+  .exhibit__animals .grid-medium-fourth .block .figure__caption {
+    background-image: url("../../bronxzoo.com/assets/textures/paper-3f02c7aa6efbd73b13cd7543a94c6d7d.html");
+    background-color: transparent;
+  }
+}
+@media all and (max-width: 425px) {
+  .exhibit__animals .block__image {
+    width: 150px;
+  }
+  .exhibit__animals .block__description {
+    width: 100%;
+  }
+}
+.exhibit__animals .color-copy {
+  text-align: center;
+}
+.exhibit__animals .color-copy p:first-of-type {
+  color: #85754E;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-style: normal;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.exhibit__animals__guide {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  max-width: 660px;
+  margin: 50px auto;
+  padding: 30px 50px;
+  text-align: center;
+}
+.exhibit__animals__guide h3 {
+  color: #015B5B;
+  font-size: 14px;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 20px 0px;
+}
+.exhibit__animals__guide .btn {
+  background-color: #015B5B;
+  margin-top: 20px;
+}
+.exhibit__animals__guide .btn a {
+  color: white;
+}
+.exhibit__animals__guide .btn:hover {
+  background-color: #048787;
+}
+@media all and (max-width: 450px) {
+  .exhibit__animals__guide {
+    padding: 20px;
+  }
+}
+.exhibit__live-cam {
+  background-color: #00A99A;
+  padding: 100px 0;
+}
+@media all and (max-width: 1150px) {
+  .exhibit__live-cam {
+    padding: 0px 0px 20px 0px;
+  }
+  .exhibit__live-cam .blocks {
+    display: flex;
+    flex-flow: column;
+  }
+}
+@media all and (max-width: 1150px) {
+  .exhibit__live-cam .grid-medium-third > .cell:nth-of-type(1) {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 100%;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.exhibit__live-cam .grid-medium-third > .cell:nth-of-type(2) {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 66.6666%;
+  -ms-flex: 0 1 66.6666%;
+  flex: 0 1 66.6666%;
+  max-width: 66.6666%;
+  width: 66.6666%;
+}
+@media all and (max-width: 1150px) {
+  .exhibit__live-cam .grid-medium-third > .cell:nth-of-type(2) {
+    order: -1;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 100%;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    max-width: 100%;
+    width: 100%;
+    padding: 0px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    height: auto;
+  }
+}
+.exhibit__live-cam .grid-medium-third > .cell:nth-of-type(2) .grid {
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  vertical-align: top;
+}
+.exhibit__subhead {
+  font-family: "Lato", helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  color: #015B5B;
+  text-align: center;
+  margin: 25px 0;
+}
+.exhibit__feature .booklet-hero__sheet {
+  border-radius: 5px;
+  height: 450px;
+}
+@media all and (max-width: 1150px) {
+  .exhibit__feature .booklet-hero__sheet {
+    height: 400px;
+  }
+}
+@media all and (max-width: 767px) {
+  .exhibit__feature__reverse {
+    display: flex;
+    flex-flow: column;
+  }
+  .exhibit__feature__reverse .booklet-hero__sheet {
+    order: -1;
+  }
+}
+.exhibit__feature__site, .exhibit__feature h2:not(.exhibit__feature__quote) {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #015B5B;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+}
+.exhibit__feature__credit {
+  color: #015B5B;
+  font-weight: bold;
+  font-size: 17px;
+}
+.exhibit__feature__quote {
+  font-size: 50px !important;
+  font-weight: 900;
+  margin-bottom: 0px;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  height: 55px;
+}
+@media screen and (min-width: 1024px) {
+  .exhibit__feature__right .booklet-hero__sheet {
+    left: 60% !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .exhibit__feature__right .booklet-hero__sheet {
+    left: 45%;
+  }
+}
+@media all and (max-width: 1150px) {
+  .exhibit__more.more-to-zoo:nth-of-type(1) .block__image {
+    width: 100% !important;
+  }
+}
+@media all and (max-width: 767px) {
+  .exhibit__more.more-to-zoo:nth-of-type(1) .block__image {
+    width: 40% !important;
+  }
+}
+
+.events .grid-medium-half {
+  align-items: center;
+}
+.events__block:first-of-type {
+  padding: 5% 0;
+}
+.events__block:first-of-type .-column {
+  padding: 0% 10%;
+}
+@media screen and (max-width: 767px) {
+  .events__block:first-of-type .-column {
+    padding: 0;
+    text-align: center;
+    width: 75%;
+    margin-bottom: 10px;
+  }
+  .events__block:first-of-type .-column h2 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .events__block:first-of-type .-column {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .events__block:first-of-type {
+    padding: 0;
+  }
+}
+.events__block__inner:last-of-type {
+  background-color: white;
+  color: #85754E;
+  text-align: center;
+  margin: 60px 120px 40px 0px;
+}
+@media screen and (max-width: 767px) {
+  .events__block__inner:last-of-type {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .events__block__inner:last-of-type {
+    width: 90%;
+  }
+}
+.events__block__inner__signup {
+  background-color: #00A99A !important;
+}
+.events__block__inner__signup .events__block__inner__text {
+  color: white;
+  padding: 35px;
+  text-align: left !important;
+}
+.events__block__inner__signup .events__block__inner__text h2, .events__block__inner__signup .events__block__inner__text h3 {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.events__block__inner__signup .events__block__inner__text h2 {
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  letter-spacing: 0.05rem;
+  margin-bottom: 20px;
+}
+.events__block__inner__signup .events__block__inner__text h3 {
+  letter-spacing: 0.2em;
+  font-size: 0.95rem;
+  margin: 3px 5px 10px;
+}
+.events__block__inner__signup .events__block__inner__text p:first-of-type {
+  color: white !important;
+  font-family: "Lato", helvetica, arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  line-height: 1.5rem;
+  text-transform: none !important;
+}
+.events__block__inner__signup .events__block__inner__text p:last-of-type {
+  padding-bottom: 10px !important;
+}
+.events__block__inner__signup .events__block__inner__text .springboard-widget {
+  width: 100%;
+}
+.events__block__inner__signup .events__block__inner__text .springboard-widget .form-row {
+  margin-bottom: 10px;
+}
+.events__block__inner__signup .events__block__inner__text .springboard-widget .form-thanks {
+  margin-top: 40px;
+  text-align: left;
+}
+.events__block__inner__signup .events__block__inner__text .springboard-widget .form-thanks.hidden {
+  margin-top: 0px;
+}
+.events__block__inner__signup .events__block__inner__text .springboard-widget .form-thanks p {
+  letter-spacing: 0.2em !important;
+  font-size: 0.95rem !important;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+}
+.events__block__inner__signup .events__block__inner__text .springboard-widget .input-text {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.events__block__inner__text a:hover .tile-label {
+  transition: all 0.2s ease-out;
+  color: #00A99A;
+}
+.events__block__inner__text a:hover .icon {
+  transition: all 0.2s ease-out;
+  fill: #00A99A;
+}
+.events__block__inner__text .icon {
+  fill: #85754E;
+}
+.events__block__inner__text .tile-label {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #85754E;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.events__block__inner__text p:first-of-type {
+  color: #008484;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.events__block__inner__text p:first-of-type span {
+  font-size: 1.3rem;
+}
+.events__block__inner__text p:last-of-type {
+  padding-bottom: 20px;
+}
+
+.follow {
+  background-color: #1B71B2;
+  padding: 80px 30px;
+}
+@media all and (max-width: 767px) {
+  .follow {
+    padding: 20px 20px 40px;
+  }
+}
+.follow .container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.follow__content {
+  color: #fff;
+  flex: 0 0 50%;
+  padding: 10px;
+  text-align: center;
+}
+@media all and (max-width: 767px) {
+  .follow__content {
+    flex: 0 0 100%;
+    margin: 40px 0 0;
+  }
+}
+.follow__content h2 {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  line-height: 1.875rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.follow__content__link {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  transition: 0.2s all ease-out;
+}
+.follow__content__link:hover {
+  opacity: 0.85;
+}
+.follow__content__link svg {
+  display: block;
+  fill: #fff;
+  height: 30px;
+  width: 30px;
+}
+.follow__content p {
+  max-width: 415px;
+  margin: 10px auto 30px;
+}
+.follow__images {
+  flex: 0 0 50%;
+}
+@media all and (max-width: 767px) {
+  .follow__images {
+    flex: 0 0 100%;
+  }
+}
+.follow__images img {
+  display: block;
+  float: left;
+  width: calc(50% - 2px);
+}
+.follow__images img:first-of-type {
+  margin: 0 4px 4px 0;
+}
+.follow__images img:last-of-type {
+  margin: 0 0 0 4px;
+}
+.follow__images img:nth-of-type(2) {
+  margin: 0 0 4px;
+}
+
+.getting-around {
+  background-color: #20812D;
+  text-align: center;
+}
+@media all and (max-width: 425px) {
+  .getting-around {
+    text-align: left;
+  }
+}
+.getting-around__column h3, .getting-around__column p {
+  color: white;
+}
+.getting-around__column svg {
+  fill: white;
+}
+@media all and (max-width: 425px) {
+  .getting-around__column svg {
+    display: none;
+  }
+}
+@media all and (max-width: 425px) {
+  .getting-around__column p {
+    margin-bottom: 0px;
+  }
+}
+@media all and (max-width: 767px) {
+  .getting-around__column {
+    display: flex;
+    flex-flow: column;
+  }
+  .getting-around__column .wysiwyg:first-of-type {
+    order: 2;
+  }
+  .getting-around__column .zoo-map {
+    order: 1;
+  }
+}
+.getting-around__container__image {
+  background-image: url("../../cdn.wcs.org/2022/04/28/2i4p85q5cn_bronxzoo_summer_2022.png");
+  background-position: center center;
+  background-size: cover;
+  display: block;
+}
+.getting-around__container__image__inner {
+  min-height: 400px;
+}
+@media all and (max-width: 767px) {
+  .getting-around__container__image__inner {
+    min-height: 450px;
+    margin-bottom: 32px;
+  }
+}
+@media all and (max-width: 425px) {
+  .getting-around__container__image__inner {
+    min-height: 350px;
+  }
+}
+.getting-around__container__image .container {
+  max-width: 1400px !important;
+}
+.getting-around .wysiwyg .cta {
+  color: #FAFF00;
+}
+.getting-around .wysiwyg .cta::before {
+  background-image: url("../../cdn.wcs.org/2020/05/18/ersffdhwp_ICON_plus.png");
+}
+.getting-around .wysiwyg .cta:hover, .getting-around .wysiwyg .cta:focus {
+  color: #c5d600;
+}
+@media all and (max-width: 425px) {
+  .getting-around .wysiwyg .cta {
+    display: none;
+  }
+}
+.getting-around .wysiwyg .getting-around__header {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+@media all and (max-width: 425px) {
+  .getting-around .wysiwyg .getting-around__header {
+    text-align: left;
+  }
+}
+.getting-around .wysiwyg:first-of-type {
+  padding: 50px;
+}
+@media all and (max-width: 425px) {
+  .getting-around .wysiwyg:first-of-type {
+    padding: 0px 10px 24px;
+  }
+}
+.getting-around .wysiwyg .btn-app {
+  background-color: white;
+  color: #026E3C;
+  letter-spacing: 0.14em;
+  margin-bottom: 16px;
+}
+@media all and (min-width: 426px) {
+  .getting-around .wysiwyg .btn-app {
+    display: none;
+  }
+}
+
+.guide-arrow {
+  position: relative;
+}
+.guide-arrow::after {
+  background-size: cover;
+  content: "";
+  display: block;
+  position: absolute;
+}
+@media screen and (max-width: 1150px) {
+  .guide-arrow::after {
+    display: none;
+  }
+}
+.guide-arrow--left::after {
+  background-image: url(../../cdn.wcs.org/2024/07/10/15/27/33/a1629081-3a02-4396-9903-9e4636f66ecb/arrow-left.png);
+  height: 268px;
+  left: -200px;
+  top: -55px;
+  width: 150px;
+}
+.guide-arrow--right::after {
+  background-image: url(../../cdn.wcs.org/2024/07/10/15/27/19/a385ee69-dbe5-49c5-94f0-31080c7e9bc9/arrow-right.png);
+  height: 260px;
+  right: -190px;
+  top: -28px;
+  width: 176px;
+}
+
+.kbyg-bar {
+  background-color: #00A99A;
+  padding: 10px;
+}
+.kbyg-bar__main__inner {
+  padding: 16px;
+}
+.kbyg-bar__main__inner__link {
+  float: left;
+  margin: 0 15px 0 30px;
+}
+.kbyg-bar__main__inner__link svg {
+  fill: #FAFF00;
+}
+@media all and (max-width: 425px) {
+  .kbyg-bar__main__inner__link {
+    margin-left: 0px;
+  }
+}
+.kbyg-bar__main__inner h3 {
+  color: white;
+}
+.kbyg-bar__main__inner p {
+  color: white;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  width: 75%;
+  margin-left: 105px;
+}
+@media all and (max-width: 425px) {
+  .kbyg-bar__main__inner h3 {
+    font-size: 0.8rem;
+  }
+  .kbyg-bar__main__inner p {
+    margin-left: 75px;
+    width: 75%;
+  }
+}
+.kbyg-bar__nav svg {
+  fill: white;
+}
+.kbyg-bar__nav .icon-link {
+  color: white;
+}
+@media all and (max-width: 767px) {
+  .kbyg-bar .list-inline-med {
+    text-align: left;
+    width: 64%;
+  }
+}
+@media all and (max-width: 425px) {
+  .kbyg-bar .list-links a:hover::after {
+    display: none;
+  }
+}
+
+body:not(.tickets):not(.animals) .tile {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+@media all and (max-width: 767px) {
+  body:not(.tickets):not(.animals) .tile {
+    padding: 0px;
+  }
+}
+
+.bronxzoo--ecomm .event-tickets__map-link {
+  display: none;
+}
+.bronxzoo--ecomm .margin-2-bottom .cell.cell-medium-two-third {
+  display: none;
+}
+
+.column {
+  padding: 0px;
+}
+
+.-column .relative .image-fluid {
+  max-width: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.grid-medium-half > .cell--full {
+  -webkit-flex: 0 1 100%;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  max-width: 100%;
+  width: 100%;
+}
+
+.grid-medium-half > .cell--30 {
+  -webkit-flex: 0 1 30%;
+  -ms-flex: 0 1 30%;
+  flex: 0 1 30%;
+  max-width: 30%;
+  padding: 0 0 0 20px;
+  width: 30%;
+}
+@media all and (max-width: 767px) {
+  .grid-medium-half > .cell--30 {
+    -webkit-flex: 0 1 100%;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    max-width: 100%;
+    padding: 0 25px 25px;
+    width: 100%;
+  }
+}
+
+.grid-medium-half > .cell--70 {
+  -webkit-flex: 0 1 70%;
+  -ms-flex: 0 1 70%;
+  flex: 0 1 70%;
+  max-width: 70%;
+  width: 70%;
+}
+@media all and (max-width: 767px) {
+  .grid-medium-half > .cell--70 {
+    -webkit-flex: 0 1 100%;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    max-width: 100%;
+    padding: 0 10px 0;
+    width: 100%;
+  }
+}
+
+.wild-encounters-tickets {
+  background-image: url("../../cdn.wcs.org/2018/09/14/72xd52thil_Julie_Larsen_Maher_1693_Cheetah_Connection_WAC_BZ_08_08_18_we.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding-right: 52%;
+}
+@media all and (max-width: 1150px) {
+  .wild-encounters-tickets {
+    background-position: top;
+    padding-right: 0;
+    padding: 60% 30px 30px;
+  }
+}
+
+.page > div:last-child {
+  margin-bottom: 0px !important;
+}
+
+.must-see {
+  margin: 0;
+  padding: 5% 0;
+}
+@media all and (max-width: 767px) {
+  .must-see {
+    margin: 0;
+  }
+}
+.must-see__block {
+  display: inline-block;
+  margin: 0 0 0 60px;
+  width: calc(33.3333% - 65px);
+  vertical-align: top;
+}
+.must-see__block:first-of-type {
+  padding: 10% 0;
+}
+.must-see__block:last-of-type {
+  margin-left: 30px;
+}
+@media all and (max-width: 767px) {
+  .must-see__block {
+    width: calc(50% - 65px);
+  }
+  .must-see__block:first-of-type:not(.things-to-do__block) {
+    width: 70%;
+    display: block;
+    padding: 0px;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  .must-see__block:first-of-type {
+    padding: 0px;
+  }
+}
+@media all and (max-width: 425px) {
+  .must-see__block {
+    width: 95%;
+  }
+  .must-see__block:first-of-type {
+    width: 100%;
+  }
+  .must-see__block:nth-child(2) {
+    margin-left: 8px;
+    margin-bottom: 50px;
+  }
+  .must-see__block:last-of-type {
+    margin-left: 8px;
+  }
+}
+.must-see__block__image {
+  height: auto;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.must-see__block__text {
+  text-align: center;
+  padding: 25px;
+  color: #85754E;
+}
+.must-see__block__text a {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+@media all and (max-width: 767px) {
+  .must-see__block__text a {
+    padding: 0px;
+  }
+}
+.must-see__block__text a .tile-label {
+  color: #00A99A;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin: 8px 0;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.must-see__block__text a .icon {
+  fill: #85754E;
+  transition: all 0.2s ease-out;
+}
+.must-see__block__text a .icon:hover {
+  fill: #00A99A;
+}
+@media all and (max-width: 425px) {
+  .must-see__block__text {
+    padding: 0 10px 10px 10px;
+  }
+  .must-see__block__text p {
+    font-size: 0.8rem;
+  }
+}
+.must-see h2 {
+  color: #20812D;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  margin: 50px 0 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+@media all and (max-width: 767px) {
+  .must-see h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.things-to-do {
+  margin: 8% 0 0;
+  background-color: #00A99A;
+  padding: 0 0 6%;
+}
+.things-to-do__container {
+  text-align: center;
+}
+.things-to-do__block {
+  margin-top: -30px !important;
+}
+.things-to-do__block:first-of-type {
+  padding-top: 0% !important;
+  padding-bottom: 0% !important;
+}
+@media all and (max-width: 767px) {
+  .things-to-do__block {
+    width: 95% !important;
+  }
+  .things-to-do__block:first-of-type {
+    margin-top: -15px !important;
+    margin-left: 0px !important;
+    margin-bottom: 50px !important;
+  }
+  .things-to-do__block:nth-child(2) {
+    margin-bottom: 50px !important;
+    margin-left: 0px !important;
+  }
+  .things-to-do__block:last-child {
+    margin-left: 0px !important;
+  }
+}
+.things-to-do__review {
+  text-align: center;
+  padding: 5% 0 !important;
+}
+@media all and (max-width: 767px) {
+  .things-to-do__review {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+.things-to-do__review__mark {
+  color: #FAFF00;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 6rem;
+  line-height: 1;
+}
+@media all and (max-width: 425px) {
+  .things-to-do__review__mark {
+    font-size: 4rem;
+    line-height: 0.75;
+  }
+}
+.things-to-do__review__quote {
+  color: white;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+@media all and (max-width: 425px) {
+  .things-to-do__review__quote {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+}
+.things-to-do__review__source {
+  color: #FAFF00;
+  font-size: 1.4rem;
+  line-height: 1;
+  margin-top: 20px;
+}
+.things-to-do__review__source__site {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  color: #015B5B;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .things-to-do__review {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+}
+.things-to-do .must-see__block__text {
+  position: relative;
+  bottom: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.three-panel .things-to-do__block {
+  width: calc(38% - 65px);
+  overflow: hidden;
+}
+.three-panel .things-to-do__block:first-of-type {
+  margin-left: 0px !important;
+}
+.three-panel .things-to-do__block:last-of-type {
+  margin-left: 0px !important;
+}
+
+.prospectparkzoo .getting-around__container__image {
+  background-image: url("../../cdn.wcs.org/2022/06/30/6v6d5ztg8f_ppz_map_summer_2022.png");
+}
+.prospectparkzoo .getting-around__container__image__inner {
+  min-height: 500px;
+}
+
+.queenszoo .getting-around__container__image {
+  background-image: url("../../cdn.wcs.org/2021/07/09/2ydfjjx4tc_queenszoo.png");
+}
+
+.grid-medium-third .ellipsis-table {
+  width: 300px;
+}
+@media all and (max-width: 1150px) {
+  .grid-medium-third .ellipsis-table {
+    width: 200px;
+  }
+}
+
+.ellipsis-table {
+  width: 400px;
+}
+@media all and (max-width: 1150px) {
+  .ellipsis-table {
+    width: 300px;
+  }
+}
+@media all and (max-width: 425px) {
+  .ellipsis-table {
+    width: 200px;
+  }
+}
+.ellipsis-table .ellipsis div {
+  text-align: left;
+}
+.ellipsis-table .ellipsis__inner:after {
+  color: white;
+}
+.ellipsis-table .ellipsis .price {
+  color: #85754E;
+}
+.ellipsis-table .ellipsis .note {
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  color: #818181;
+  text-align: right;
+}
+.ellipsis-table--groups hr {
+  margin-top: 16px;
+}
+.ellipsis-table--groups li {
+  align-items: center;
+}
+@media all and (max-width: 767px) {
+  .ellipsis-table--groups li {
+    flex-direction: column;
+  }
+}
+.ellipsis-table--groups li div:nth-of-type(2) {
+  max-height: 10px;
+}
+
+body:not(.tickets) .type-header-large {
+  font-family: "Merriweather", georgia, "times new roman", serif !important;
+  font-weight: normal !important;
+  text-transform: none !important;
+}
+
+.ellipsis-table .ellipsis .price strike {
+  color: #8a8885;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+h2.primary-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 2.5rem;
+}
+
+.header__title {
+  color: #20812D;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 3.75rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .header__title {
+    font-size: 2.65rem;
+    line-height: 2.65rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header__title {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+  }
+}
+
+.medium-text {
+  font-size: 1.15rem;
+  line-height: 1.85rem;
+}
+
+.wysiwyg .intro-header {
+  color: #20812D;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-size: 3.75rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 425px) {
+  .wysiwyg .intro-header {
+    font-size: 2.3rem;
+  }
+}
+.wysiwyg .intro-text {
+  font-family: "Merriweather", georgia, "times new roman", serif;
+  font-size: 1.625rem;
+}
+@media screen and (max-width: 767px) {
+  .wysiwyg .intro-text {
+    font-size: 1.35rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .wysiwyg .intro-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+.wysiwyg h2:not(.type-display-capped) {
+  color: #20812D;
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  margin: 50px 0 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .wysiwyg h2:not(.type-display-capped) {
+    font-size: 1.65rem;
+    line-height: 1.65rem;
+  }
+}
+.wysiwyg h2.section-header {
+  margin: 0;
+  padding: 40px 0 0;
+  text-align: center;
+}
+.wysiwyg .cta {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  color: #00A99A;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+.wysiwyg .cta::before {
+  background-image: url("../../cdn.wcs.org/2020/04/30/7tpr4iv0h_ICON_plus.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+  display: inline-block;
+  height: 12px;
+  margin: 0 5px 2px 0;
+  transition: all 0.2s ease-out;
+  width: 12px;
+  vertical-align: text-bottom;
+}
+
+.cta {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  color: #00A99A;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+.cta::before {
+  background-image: url("../../cdn.wcs.org/2020/04/30/7tpr4iv0h_ICON_plus.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+  display: inline-block;
+  height: 12px;
+  margin: 0 5px 2px 0;
+  transition: all 0.2s ease-out;
+  width: 12px;
+  vertical-align: text-bottom;
+}
+
+hr:not(.divided) {
+  background-color: #c4c4c4;
+  border: none;
+  height: 1px;
+  margin-bottom: 16px;
+}
+
+.type-headline {
+  font-size: 24px;
+}
+
+.type-small {
+  font-size: 14px;
+}
+
+.wild-encounter {
+  background-color: #1B71B2;
+}
+.wild-encounter__container {
+  display: table;
+  width: 100%;
+  min-height: 500px;
+}
+.wild-encounter__container__image {
+  background-image: url(../../cdn.wcs.org/2020/04/27/3kl480ycjt_Julie_Larsen_Maher_1693_Cheetah_Connection_WAC_BZ_08_08_18_we.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: table-cell;
+  width: 50%;
+  vertical-align: top;
+}
+@media all and (max-width: 767px) {
+  .wild-encounter__container__image {
+    display: block;
+    min-height: 400px;
+    width: 100%;
+  }
+}
+@media all and (max-width: 425px) {
+  .wild-encounter__container__image {
+    min-height: 250px;
+  }
+}
+.wild-encounter__container__image__inner {
+  min-height: 500px;
+}
+.wild-encounter__container__image--membership {
+  background-image: url(../../cdn.wcs.org/2019/07/08/7sb2r8st22_Julie_Larsen_Maher_0987_California_Sea_Lions_kissing_SLC_PPZ_04_06_11_hr.jpg);
+}
+.wild-encounter__container__text {
+  display: table-cell;
+  padding: 50px;
+  vertical-align: middle;
+  width: 50%;
+}
+@media all and (max-width: 767px) {
+  .wild-encounter__container__text {
+    display: block;
+    width: 100%;
+  }
+}
+@media all and (max-width: 425px) {
+  .wild-encounter__container__text {
+    padding: 5px;
+  }
+}
+.wild-encounter__container__text p {
+  color: white;
+  margin-bottom: 16px !important;
+}
+.wild-encounter__container__text .label {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+.wild-encounter__container__text h3 {
+  font-family: "Brandon Grotesque", helvetica, arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
